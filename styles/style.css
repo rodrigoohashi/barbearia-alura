@@ -1,0 +1,149 @@
+@import url(/styles/reset.css);
+@import url(/barbeariaalura/styles/style-home.css);
+@import url('https://fonts.googleapis.com/css2?family= Montserrat :wght@300;400 & display=swap');
+@import url(/barbeariaalura/styles/produtos.css);
+@import url(/barbeariaalura/styles/contatos.css);
+
+:root {
+--fonte-principal: 'Montserrat', sans-serif;
+}
+
+/* CABECALHO */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background: #BBBBBB;
+    align-items: center;
+    
+}
+
+.logo__barbearia {
+    padding-right: 25%;
+}
+
+.botao__home {
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    gap: 1em;
+}
+
+.nav__itens {
+    display: inline-block;           
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    
+}
+
+.itens__link {
+    
+    display: inline-block;
+    padding: 0 0 0 2em;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+       
+}
+
+a:hover {
+   color: antiquewhite;
+}
+
+/* BANNER */
+.banner {
+    width: 100%;
+}
+
+/* TEXTO CENTRAL */
+.container__texto {
+    display: flex;
+    margin:0 15%;
+}
+
+.utensilios {
+    width: 8rem;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    padding: 0.2em 0 0.5em 0;
+    font-weight: bold;
+}
+
+.texto__principal {
+    font-family: var(--fonte-principal);
+    text-align: justify;
+    align-items: center;
+    padding: 0 0 0.6em;
+    font-size: 1rem;
+}
+
+strong {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* MAPA */
+
+.texto__mapa {
+    font-family: var(--fonte-principal);
+    text-align: center;
+    padding: 1em;
+}
+
+.mapa__google {
+    text-align: center;
+    padding: 0.5em;
+}
+
+/* BENEFICIOS */
+
+.beneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15%;
+}
+
+.barba {
+    width: 70%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    align-items: center;
+}
+
+.itens__beneficios {
+   display: flex;
+   flex-direction: column; 
+   font-weight: bold;
+   font-family: var(--fonte-principal);
+}
+
+.itens {
+    padding-bottom: 0.5em;
+}
+
+/* RODAPE */
+
+.rodape {
+
+ margin-top: 1em;   
+ text-align: center;
+ background:url(/barbeariaalura/assets/bg.jpg);
+ color: #FFFFFF;   
+ 
+ }
+
+ .copyright {
+    padding-bottom: 2em;
+    font-family: var(--fonte-principal);
+ }
+
